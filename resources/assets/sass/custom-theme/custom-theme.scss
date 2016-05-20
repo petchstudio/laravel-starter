@@ -1,0 +1,13 @@
+/*!
+ * Theme for _laravel
+ * Copyright 2016 Petch Studio.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Import custom Bootstrap variables
+@import "custom/bootstrap-variables";
+
+// Import loader
+@import "custom/loader-variables";
+@import "custom/loader";
+@import "custom/loader-circle";

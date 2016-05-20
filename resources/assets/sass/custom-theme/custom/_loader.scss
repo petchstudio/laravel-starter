@@ -1,0 +1,34 @@
+#loader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 8888;
+	background: $loader-bg;
+
+	&:after {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+
+	.content {
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 0px;
+
+		.loader-circle {
+			box-shadow: inset 0 0 0 2px $loader-loader-circle-color;
+			border: none;
+
+			.loader-line {
+				box-shadow: inset 0 0 0 2px $loader-loader-line-color;
+				border: none;
+			}
+		}
+	}
+}
